@@ -1,0 +1,8 @@
+{
+  "name": "NEZZOCODE",
+  "scopeName": "source.nc",
+  "patterns": [
+    { "match": "\\b(sage|wenn|schleife|zahl|funktion|klasse|import)\\b", "name": "keyword.control.nc" },
+    { "match": "\"[^\"]*\"", "name": "string.quoted.double.nc" }
+  ]
+}
